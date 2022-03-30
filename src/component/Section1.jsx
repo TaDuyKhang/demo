@@ -37,8 +37,9 @@ function Section1() {
             <img className="banner-img" src={BannerImg} alt="banner"></img>
           ) : (
             <div className="video-wrapper">
-              {CHARACTERS_SOURCE.map((item) => (
+              {CHARACTERS_SOURCE.map((item, index) => (
                 <video
+                  key={index}
                   className={`video-item ${item.className}`}
                   playsInline
                   autoPlay
@@ -67,7 +68,8 @@ function Section1() {
           <Icons />
         </div>
       </div>
-      <img className="footImg" src={Footer} alt="" />
+
+      <div className="section-line"></div>
     </section>
   );
 }
