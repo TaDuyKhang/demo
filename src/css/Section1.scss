@@ -92,8 +92,9 @@
 
   .footImg {
     position: absolute;
-    bottom: -70px;
+    bottom: 0;
     right: 0px;
+    transform: translateY(50%);
     width: 100%;
     z-index: 2;
   }
