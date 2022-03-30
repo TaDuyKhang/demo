@@ -1,0 +1,114 @@
+.section4 {
+  margin: 0 auto;
+  background-image: url(../img/bgcSection4.png);
+  background-size: cover;
+  max-height: 1390px;
+  position: relative;
+  .box {
+    display: flex;
+    justify-content: center;
+    padding: 70px 0;
+  }
+
+  .boxLeft {
+    width: 41%;
+    text-align: center;
+    margin: 20px;
+    position: relative;
+  }
+
+  .boxRight {
+    width: 41%;
+    margin: 20px;
+  }
+
+  .icon {
+    width: 50%;
+  }
+
+  .bottomBox {
+    background: #ffffff;
+    border-radius: 12px;
+    text-align: center;
+  }
+  .imgBox {
+    position: relative;
+  }
+
+  .img {
+    width: 100%;
+  }
+
+  .img3 {
+    width: 100%;
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+  }
+
+  .bottomBox-title {
+    font-family: "TitanOne";
+    font-size: 50px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 50px 0 30px 0;
+  }
+
+  .bottomBox-subText {
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: "Asap_Thin";
+    font-size: 28px;
+  }
+
+  .btn {
+    padding: 15px 40px;
+
+    position: static;
+
+    border: none;
+    background: #ffcd36;
+    border-radius: 8px;
+    margin: 40px 0;
+    font-size: 28px;
+    color: white;
+  }
+
+  .bottomLeft {
+    position: relative;
+    top: -23%;
+    width: 100%;
+  }
+
+  .textBox-title {
+    font-family: "TitanOne";
+    font-size: 36px;
+
+    /* or 139% */
+
+    text-align: right;
+
+    color: #ffffff;
+    margin-top: 20px;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .textBox-subText {
+    font-family: "Asap_Thin";
+    font-size: 28px;
+
+    text-align: right;
+
+    color: #ffffff;
+    margin: 40px 0 90px 0;
+  }
+
+  .footerImg {
+    position: absolute;
+    bottom: -70px;
+    right: 0px;
+    width: 100%;
+    z-index: 2;
+  }
+}

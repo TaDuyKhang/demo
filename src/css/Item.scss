@@ -1,0 +1,82 @@
+.item {
+  //   width: 15%;
+  background-color: #fff;
+  border-radius: 0px 0px 20px 20px;
+  position: relative;
+
+  .img {
+    width: 100%;
+  }
+
+  .iconBox {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 25px;
+    left: 15px;
+    align-items: center;
+  }
+
+  .icon {
+    width: 25px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    padding: 8px;
+  }
+
+  .number {
+    position: absolute;
+    font-family: "Asap";
+    top: 68px;
+    left: 29px;
+  }
+
+  .textBox {
+    margin: 25px 15px;
+  }
+  .boxTitle {
+    font-family: "Asap";
+
+    font-size: 22px;
+    line-height: 28px;
+    margin: 20px 0;
+  }
+
+  .smallBox {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .level {
+    font-family: "Asap";
+    font-size: 16px;
+    line-height: 28px;
+    color: wheat;
+    background-color: #ffcd36;
+    padding: 6px 12px;
+  }
+
+  .a {
+    fill: red;
+    left: 6.31%;
+    right: 90.53%;
+    top: 36.98%;
+    bottom: 54.18%;
+
+    border: 1.5px solid red;
+  }
+  .b {
+    fill: red;
+  }
+  .c {
+    fill: red;
+  }
+
+  .BNB {
+    font-family: "Asap_Thin";
+  }
+
+  .USDT {
+    font-family: "Asap_Regular";
+  }
+}

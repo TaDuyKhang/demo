@@ -1,0 +1,70 @@
+.menu {
+  background-color: black;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+
+  font-family: "Asap";
+
+  .box {
+    align-items: center;
+    height: 72px;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: start;
+    position: relative;
+  }
+
+  .middle {
+    display: flex;
+
+    a {
+      text-decoration: none;
+      color: white;
+      margin: 0 16px;
+      padding: 13px;
+      padding: 26px 7px;
+    }
+  }
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  img {
+    width: 68px;
+    height: 47px;
+    margin-right: 40px;
+  }
+
+  svg {
+    width: 24px;
+    height: 22.74px;
+    margin-right: 10px;
+  }
+
+  .right {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-bottom: 1px;
+    background: #ffcd36;
+    border-radius: 20px;
+    color: black;
+    padding: 10px;
+  }
+
+  .active {
+    border-bottom: 1px solid white;
+  }
+}

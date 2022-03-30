@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "Asap";
+  src: local("Asap"),
+    url("./font/Asap-VariableFont_wght.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Asap_Regular";
+  src: local("Asap_Regular"),
+    url("./font/static/Asap-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Asap_Thin";
+  src: local("Asap_Thin"),
+    url("./font/static/Asap-Medium.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "LexendDeca-Regular";
+  src: local("LexendDeca-Regular"),
+    url("./font/static/LexendDeca-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "LexendDeca-Bold";
+  src: local("LexendDeca-Bold"),
+    url("./font/static/LexendDeca-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "TitanOne";
+  src: local("TitanOne"), url("./font/TitanOne-Regular.ttf") format("truetype");
+  font-weight: bold;
+}

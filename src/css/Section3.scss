@@ -1,0 +1,70 @@
+.section3 {
+  height: 1000px;
+  background-image: url(../img/bgcSection3.png);
+  background-size: cover;
+  position: relative;
+
+  .bigBox {
+    width: 82%;
+    margin: 0 auto;
+  }
+
+  .box {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .title {
+    padding: 125px 0 85px 0;
+    font-family: "TitanOne";
+    font-size: 40px;
+    color: white;
+  }
+
+  .item {
+    width: 25%;
+
+    background-color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px;
+    border-radius: 12px;
+  }
+
+  .itemTitle {
+    font-family: "Asap";
+    margin: 15px 0;
+    // font-weight: bold;
+    font-size: 22px;
+  }
+
+  .itemSubtext {
+    font-size: 22px;
+    font-family: "Asap_Thin";
+    font-weight: normal;
+  }
+
+  .button {
+    background: linear-gradient(270.25deg, #f85b17 0.44%, #f8189d 100.03%);
+    border-radius: 8px;
+    width: 203px;
+    height: 52px;
+    font-family: "Asap";
+    font-size: 24px;
+    display: block;
+    border: none;
+    margin: 0 auto;
+    color: #ffffff;
+    margin-top: 70px;
+  }
+
+  .footerImg {
+    position: absolute;
+    bottom: -70px;
+    right: 0px;
+    width: 100%;
+    z-index: 2;
+  }
+}

@@ -1,0 +1,71 @@
+.section7 {
+  background-image: url(../img/bgcSection7.png);
+  height: 700px;
+  padding: 110px 0 0 130px;
+  position: relative;
+  background-size: cover;
+  .title {
+    width: 30%;
+    font-family: "TitanOne";
+    font-size: 45px;
+    line-height: 50px;
+    color: #ffffff;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .subText {
+    margin: 50px 0 100px 0;
+    width: 40%;
+    font-family: "Asap";
+    font-size: 24px;
+    line-height: 34px;
+    /* or 142% */
+
+    color: #ffffff;
+  }
+
+  .topBox {
+    display: flex;
+    justify-content: start;
+    position: relative;
+    z-index: 3;
+    transform: translateY(7px);
+  }
+
+  .bottomBox {
+    display: inline-flex;
+    justify-content: start;
+    position: relative;
+    z-index: 3;
+    transform: translateY(-7px);
+    left: 155px;
+  }
+
+  .process {
+    position: relative;
+    z-index: 3;
+  }
+
+  .line {
+    width: 1400px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .JD {
+    position: absolute;
+    width: 555px;
+    top: 45px;
+    right: 50px;
+    z-index: 3;
+  }
+
+  .footerImg {
+    position: absolute;
+    bottom: -70px;
+    right: 0px;
+    width: 100%;
+    z-index: 2;
+  }
+}

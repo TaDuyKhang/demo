@@ -1,0 +1,50 @@
+.section5 {
+  background-image: url(../img/bgcSection5.png);
+  position: relative;
+  .setWidth {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .title {
+    font-family: "TitanOne";
+    padding: 80px 0 80px 0;
+    font-size: 40px;
+    line-height: 41px;
+
+    color: #ffffff;
+
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .box {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .item {
+    width: 17%;
+  }
+
+  .btn {
+    background: linear-gradient(270.25deg, #f85b17 0.44%, #f8189d 100.03%);
+    border-radius: 8px;
+    padding: 15px 30px;
+    border: none;
+    color: white;
+    font-size: 24px;
+    font-family: "Asap";
+    margin: 50px 0 70px 0;
+  }
+
+  .a {
+    text-align: center;
+  }
+
+  .footerImg {
+    position: absolute;
+    bottom: -70px;
+    right: 0px;
+    width: 100%;
+    z-index: 2;
+  }
+}

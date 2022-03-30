@@ -1,0 +1,100 @@
+.section1 {
+  background-image: url("../img/Background.png");
+  color: white;
+  height: 740px;
+  position: relative;
+  background-size: cover;
+
+  .box {
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+  }
+  video {
+    height: 300px;
+  }
+
+  .textBox {
+    padding-top: 128px;
+    width: 37%;
+    display: inline-block;
+  }
+
+  .title {
+    font-family: "TitanOne";
+    font-size: 90px;
+    text-shadow: 0px 4px 30px rgba(255, 0, 0, 0.3);
+  }
+
+  .subText {
+    font-family: "Asap";
+    margin: 24px 0 40px 0;
+    font-size: 24;
+    text-shadow: 0px 4px 20px rgba(255, 0, 0, 0.25);
+  }
+
+  .button {
+    background: linear-gradient(
+      90.12deg,
+      #f8179e 0.11%,
+      rgba(248, 91, 23, 0.52) 97.84%
+    );
+    box-shadow: 0px 4px 20px rgba(255, 0, 0, 0.25);
+    border-radius: 8px;
+    align-items: center;
+    padding: 12px 24px;
+    border: 0;
+    font-size: 20px;
+    margin-bottom: 36px;
+    font-family: "Asap";
+  }
+
+  .iconBox {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .vidBox {
+    position: absolute;
+    width: 705px;
+    height: 667.2px;
+    left: 630px;
+    top: 28.8px;
+    transform: translateX(-65%);
+  }
+
+  .Chili_loop {
+    position: absolute;
+    width: 275.87px;
+    height: 583.41px;
+    left: 630px;
+    top: 95.22px;
+  }
+
+  .Box_loop {
+    position: absolute;
+    width: 329px;
+    height: 649.83px;
+    left: 827.2px;
+    top: 28.8px;
+    z-index: 2;
+  }
+
+  .Rosa_loop {
+    position: absolute;
+    width: 267.7px;
+    height: 600.78px;
+    left: 1067.3px;
+    top: 95.22px;
+  }
+
+  .footImg {
+    position: absolute;
+    bottom: -70px;
+    right: 0px;
+    width: 100%;
+    z-index: 2;
+  }
+}
