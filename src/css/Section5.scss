@@ -1,5 +1,5 @@
 .section5 {
-  background: url(../img/bgcSection5.png), #a1e341;
+  background: url(../img/section5/background.png), #a1e341;
   position: relative;
   padding: 4rem 0 4.5rem;
 
@@ -32,26 +32,17 @@
     margin: 2.5rem auto 0;
   }
 
-  .a {
-    text-align: center;
-  }
-
-  .footerImg {
-    position: absolute;
-    bottom: 0;
-    right: 0px;
-    transform: translateY(50%);
-    width: 100%;
-    z-index: 2;
-  }
-
   @media screen and (min-width: 768px) {
-    .title {
-      margin-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    .swiper {
+      margin: 0 -3rem;
+      padding-left: 3rem;
     }
 
-    .content-container {
-      padding: 0 3rem;
+    .title {
+      margin-bottom: 3rem;
     }
 
     .btn {
@@ -60,6 +51,13 @@
   }
 
   @media screen and (min-width: 1200px) {
+    padding: 5rem 2rem 6rem;
+
+    .swiper {
+      margin: 0;
+      padding-left: 0;
+    }
+
     .btn {
       font-size: 1.5rem;
     }
