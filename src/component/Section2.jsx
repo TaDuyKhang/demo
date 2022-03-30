@@ -8,7 +8,7 @@ import "../css/index.scss";
 
 function Section2() {
   return (
-    <div className="section2">
+    <div className="section2" id="news">
       <ul className="list">
         <li className="item">
           <img className="border" src={Border} alt="" />
