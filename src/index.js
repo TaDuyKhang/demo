@@ -3,13 +3,6 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import {BrowserRouter} from "react-router-dom";
-import "./font/Asap-VariableFont_wght.ttf";
-import "./font/static/Asap-Medium.ttf";
-import "./font/static/Asap-Regular.ttf";
-import "./font/LexendDeca-VariableFont_wght.ttf";
-import "./font/TitanOne-Regular.ttf";
-import "./font/static/LexendDeca-Bold.ttf";
-import "./font/static/LexendDeca-Regular.ttf";
 
 ReactDOM.render(
   <React.StrictMode>

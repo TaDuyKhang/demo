@@ -20,3 +20,11 @@ a {
   text-decoration: none;
   color: black;
 }
+
+.app-content {
+  padding-top: 75px;
+
+  @media screen and (min-width: 992px) {
+    padding-top: 60px;
+  }
+}

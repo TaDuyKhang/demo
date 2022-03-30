@@ -131,7 +131,7 @@ $header-desktop-height: 60px;
     }
   }
 
-  @media screen and (min-width: 1000px) {
+  @media screen and (min-width: 992px) {
     .header__content {
       height: $header-desktop-height;
       max-width: 1224px;

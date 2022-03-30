@@ -1,36 +1,27 @@
 .section1 {
-  background-image: url("../img/Background.png");
+  background-image: url("../img/Background.png"),
+    linear-gradient(#f88015, #ffcc32);
   color: white;
-  height: 740px;
   position: relative;
   background-size: cover;
+  padding: 2.5rem 0 4rem;
 
-  .box {
-    width: 85%;
-    margin: 0 auto;
-    position: relative;
-  }
-  video {
-    height: 300px;
-  }
-
-  .textBox {
-    padding-top: 128px;
-    width: 37%;
-    display: inline-block;
+  .content {
+    padding: 0 1rem;
   }
 
   .title {
-    font-family: "TitanOne";
-    font-size: 90px;
+    font-family: "Titan One";
+    font-size: 3.5rem;
     text-shadow: 0px 4px 30px rgba(255, 0, 0, 0.3);
   }
 
-  .subText {
-    font-family: "Asap";
-    margin: 24px 0 40px 0;
-    font-size: 24;
+  .sub-text {
+    margin: 1.25rem 0 2rem;
+    font-size: 1rem;
+    font-weight: 600;
     text-shadow: 0px 4px 20px rgba(255, 0, 0, 0.25);
+    line-height: 1.4;
   }
 
   .button {
@@ -44,50 +35,124 @@
     align-items: center;
     padding: 12px 24px;
     border: 0;
-    font-size: 20px;
+    font-size: 1.125rem;
     margin-bottom: 36px;
-    font-family: "Asap";
+    color: #fff;
+    font-weight: 600;
   }
 
-  .iconBox {
-    display: flex;
-    width: 80%;
-    justify-content: space-between;
-    align-items: center;
+  .icons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-row-gap: 2rem;
+
+    svg {
+      width: 2rem;
+      height: 2rem;
+    }
   }
 
-  .vidBox {
+  .characters {
+    text-align: center;
+
+    .banner-img {
+      width: 300px;
+      height: 300px;
+    }
+  }
+
+  .video-wrapper {
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
+
+    &::before {
+      content: "";
+      display: block;
+      padding-top: 100%;
+    }
+  }
+
+  .video-item {
     position: absolute;
-    width: 705px;
-    height: 667.2px;
-    left: 630px;
-    top: 28.8px;
-    transform: translateX(-65%);
+    bottom: 0;
+
+    &.left-girl {
+      height: 89%;
+      left: 0;
+      width: 39%;
+    }
+
+    &.center-man {
+      left: 50%;
+      width: 42.7%;
+      transform: translateX(-50%);
+      z-index: 2;
+      bottom: 5%;
+    }
+
+    &.right-girl {
+      height: 92%;
+      right: 0;
+      width: 38%;
+    }
   }
 
-  .Chili_loop {
-    position: absolute;
-    width: 275.87px;
-    height: 583.41px;
-    left: 630px;
-    top: 95.22px;
+  @media screen and (min-width: 768px) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    .button {
+      font-size: 1.25rem;
+    }
+
+    .icons {
+      grid-template-columns: repeat(7, 1fr);
+      max-width: 420px;
+    }
+
+    .content {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+    }
+
+    .video-wrapper {
+      width: 300px;
+    }
+
+    .text-box {
+      padding-right: 1.5rem;
+    }
   }
 
-  .Box_loop {
-    position: absolute;
-    width: 329px;
-    height: 649.83px;
-    left: 827.2px;
-    top: 28.8px;
-    z-index: 2;
+  @media screen and (min-width: 1024px) {
+    .video-wrapper {
+      width: 500px;
+    }
   }
 
-  .Rosa_loop {
-    position: absolute;
-    width: 267.7px;
-    height: 600.78px;
-    left: 1067.3px;
-    top: 95.22px;
+  @media screen and (min-width: 1300px) {
+    .title {
+      font-size: 90px;
+    }
+
+    .sub-text {
+      font-size: 1.5rem;
+    }
+
+    .content {
+      max-width: 1224px;
+      margin: 0 auto;
+    }
+
+    .video-wrapper {
+      width: 600px;
+    }
+
+    .button {
+      font-size: 1.25rem;
+    }
   }
 
   .footImg {

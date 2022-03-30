@@ -15,14 +15,16 @@ function App() {
   return (
     <div className="App">
       <Menu />
-      {/* <Section1 /> */}
-      <Section2 />
-      <Section3 />
+      <div className="app-content">
+        <Section1 />
+        {/* <Section2 />
+        <Section3 /> */}
+      </div>
       {/* <Section4 /> */}
       {/* <Section5 /> */}
       {/* <Section7 /> */}
       {/* <Section8 /> */}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
