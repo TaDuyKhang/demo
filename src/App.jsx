@@ -1,8 +1,8 @@
-import "./App.css";
+import "./css/index.scss";
 import Menu from "./component/Menu.jsx";
 import Download from "./component/Section2";
 import Section1 from "./component/Section1";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Section2 from "./component/Section2";
 import Section3 from "./component/Section3";
 import Section4 from "./component/Section4";
@@ -15,13 +15,13 @@ function App() {
   return (
     <div className="App">
       <Menu />
-      <Section1 />
+      {/* <Section1 /> */}
       <Section2 />
       <Section3 />
-      <Section4 />
-      <Section5 />
-      <Section7 />
-      <Section8 />
+      {/* <Section4 /> */}
+      {/* <Section5 /> */}
+      {/* <Section7 /> */}
+      {/* <Section8 /> */}
       <Footer />
     </div>
   );

@@ -1,59 +1,61 @@
 import Logo from "../img/image 14.png";
-// import { ReactComponent as Icon } from "../../public/img/Vector.svg";
 import "../css/Menu.scss";
-import { NavLink } from "react-router-dom";
+import {NavLink} from "react-router-dom";
 import "../css/index.scss";
-import MenuImg from "../img/menu.png";
-import { useState } from "react";
+import MenuIcon from "../img/menu.png";
+import CloseIcon from "../img/close.png";
+import {useState} from "react";
 
 function Menu() {
-  const [btn, setBtn] = useState(false);
-  const Click = () => {
-    if (btn) {
-      setBtn(false);
-    } else {
-      setBtn(true);
-    }
+  const [isShowMenu, setIsShowMenu] = useState(false);
+
+  const toggleMenu = () => {
+    setIsShowMenu(!isShowMenu);
   };
+
   return (
-    <div className="menu">
-      <div className="box">
-        <img className="img" src={Logo} alt="Logo" />
-        <div className={btn ? "on" : "off"}>
-          <ul className="middle">
-            <div className="middle-child">
-              <li>
+    <div className="header">
+      <div className="header__content">
+        {/* logo */}
+        <div className="logo">
+          <img className="img" src={Logo} alt="Logo" />
+        </div>
+        <div className={`menu-wrapper ${isShowMenu ? "active" : ""}`}>
+          <ul className="menu">
+            <div className="menu__left-box">
+              <li className="link">
                 <NavLink activeclassname="active" to="#Download">
                   Download
                 </NavLink>
               </li>
-              <li>
+              <li className="link">
                 <NavLink activeclassname="active" to="#news">
                   News
                 </NavLink>
               </li>
-              <li>
+              <li className="link">
                 <NavLink activeclassname="active" to="/Gameplay">
                   Gameplay
                 </NavLink>
               </li>
-              <li>
+              <li className="link">
                 <NavLink activeclassname="isAactivective" to="/NFT">
                   NFT
                 </NavLink>
               </li>
-              <li>
+              <li className="link">
                 <NavLink activeclassname="active" to="/Team">
                   Team
                 </NavLink>
               </li>
-              <li>
+              <li className="link">
                 <NavLink activeclassname="active" to="/RoadMap">
                   Road map
                 </NavLink>
               </li>
             </div>
-            <li>
+
+            <li className="link market-place">
               <NavLink
                 className="right"
                 activeclassname="active"
@@ -72,9 +74,25 @@ function Menu() {
             </li>
           </ul>
         </div>
-        <button className="btn" onClick={() => Click()}>
-          <img src={MenuImg} alt="" />
+        {/* menu trigger */}
+        <button className="button--toggle" onClick={toggleMenu}>
+          <img
+            className={`icon ${!isShowMenu ? "active" : ""}`}
+            src={MenuIcon}
+            alt="open"
+          />
+          <img
+            className={`icon icon--close ${isShowMenu ? "active" : ""}`}
+            src={CloseIcon}
+            alt="close"
+          />
         </button>
+
+        {/* overlay to close mobile menu when click outside */}
+        <div
+          className={`overlay ${isShowMenu ? "active" : ""}`}
+          onClick={() => setIsShowMenu(false)}
+        ></div>
       </div>
     </div>
   );

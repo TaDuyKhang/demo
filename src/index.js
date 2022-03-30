@@ -1,9 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter } from "react-router-dom";
+import {BrowserRouter} from "react-router-dom";
 import "./font/Asap-VariableFont_wght.ttf";
 import "./font/static/Asap-Medium.ttf";
 import "./font/static/Asap-Regular.ttf";
