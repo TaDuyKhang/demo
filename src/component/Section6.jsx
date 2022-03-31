@@ -1,6 +1,6 @@
 import TeamItem from "./TeamItem";
-import {Swiper, SwiperSlide} from "swiper/react";
-import {Navigation} from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper";
 
 import "../css/Section6.scss";
 import "swiper/css";
@@ -88,8 +88,8 @@ function Section6() {
             },
           }}
         >
-          {TEAM.map((item) => (
-            <SwiperSlide>
+          {TEAM.map((item, index) => (
+            <SwiperSlide key={index}>
               <TeamItem className="item" {...item} />
             </SwiperSlide>
           ))}
