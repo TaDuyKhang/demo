@@ -22,6 +22,7 @@ function Section8() {
           </div>
         </div>
       </div>
+      <div className="section-line"></div>
     </div>
   );
 }

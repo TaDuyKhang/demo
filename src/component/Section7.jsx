@@ -150,8 +150,6 @@ function Section7() {
           </video>
         )}
       </div>
-
-      <div className="section-line"></div>
     </div>
   );
 }

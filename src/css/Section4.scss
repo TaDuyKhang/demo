@@ -8,21 +8,22 @@
 
   .content {
     display: flex;
-    flex-direction: column;
+    flex-direction:  column-reverse;;
     justify-content: center;
     margin: 0 auto;
     text-align: center;
   }
 
-  // .content-container {
- 
-  
-  // }
+  .single-mode {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 
 
   .bottom-box-text {
     background-color: #fff;
     border-radius: 12px;
+    margin-bottom: 25px;
     .img {
       width: 100%;
     }
@@ -118,6 +119,7 @@
     }
 
     .single-mode {
+      display: block;
      margin-right: 15px;
     .bottom-box-text {
       position: relative;

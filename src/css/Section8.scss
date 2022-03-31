@@ -4,6 +4,12 @@
   padding-left: 2rem;
   padding-right: 2rem;
   padding: 4rem 0;
+  position: relative;
+
+  .section-line {
+    top: 0;
+    transform: translateY(-50%);
+  }
 
  .content {
   display: flex;
