@@ -1,74 +1,54 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .section2 {
-  position: relative;
+  padding: 3rem;
+
+  // position: relative;
   margin: 0 auto;
-  height: 780px;
+  background-color: #fd85a8;
   background-image: url(../img/bgcSection2.png);
   background-size: cover;
+  color: white;
+  position: relative;
 
-  .list {
+  .section2-box {
     display: flex;
-    padding-top: 104px;
-    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+    max-width: 350px;
+    margin: 0 auto;
   }
 
-  .item {
+  .banner-img {
     position: relative;
-    width: 57%;
-  }
-  .content {
-    width: 100%;
-    margin-left: 10px;
-  }
-
-  li {
-    list-style: none;
+    img {
+      width: 100%;
+    }
   }
 
   .border {
     position: absolute;
-    width: 110%;
-    top: -20px;
-    right: -15px;
-  }
-
-  .boxText {
-    width: 30%;
-    margin: 0px 120px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    height: 106%;
   }
 
   .title {
-    font-family: "TitanOne";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 50px;
-    margin-bottom: 60px;
-    color: #ffffff;
-
-    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: "Titan One";
+    line-height: 30px;
+    font-size: 24px;
+    margin: 15px 0;
   }
 
   .subText {
-    font-family: "Asap";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 34px;
-    margin-bottom: 140px;
-    /* or 142% */
-
-    color: #ffffff;
+    margin: 15px 0;
+    line-height: 20px;
   }
 
   .boxIcon {
+    display: flex;
+    justify-content: space-between;
     img {
       width: 48%;
-      margin-right: 10px;
     }
   }
 
@@ -79,5 +59,84 @@
     transform: translateY(50%);
     width: 100%;
     z-index: 2;
+  }
+
+  @media screen and (min-width: 768px) {
+    .section2-box {
+      flex-direction: unset;
+      max-width: none;
+      margin: 0 auto;
+      align-items: center;
+    }
+
+    .banner-img {
+      min-width: 55%;
+    }
+
+    .border {
+      right: 0;
+      // width: 106% !important;
+    }
+
+    .title {
+      font-size: 32px;
+    }
+
+    .subText {
+      font-size: 1.125rem;
+    }
+
+    .section2-boxText {
+      margin-left: 45px;
+    }
+  }
+
+  @media screen and (min-width: 1440px) {
+    .section2 {
+      padding: 2.5rem 1.5rem 2.5rem 0;
+    }
+
+    .banner-img {
+      transform: translateX(-7%);
+      min-width: 65%;
+    }
+
+    .border {
+      right: 0;
+      width: 106% !important;
+    }
+
+    .title {
+      font-size: 3rem;
+      line-height: 50px;
+    }
+
+    .section2-boxText {
+      margin-left: 0;
+    }
+
+    .subText {
+      font-size: 2rem;
+      line-height: 34px;
+    }
+  }
+
+  @media screen and (min-width: 1740px) {
+    .section2 {
+      padding: 3rem 0;
+    }
+    .banner-img {
+      transform: none;
+      min-width: 60%;
+    }
+
+    .border {
+      right: 0;
+      width: 100% !important;
+    }
+
+    .section2-boxText {
+      margin: 106px;
+    }
   }
 }

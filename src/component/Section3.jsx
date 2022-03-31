@@ -7,26 +7,26 @@ import FooterImg from "../img/footerImg.png";
 function Section3() {
   return (
     <div className="section3">
-      <div className="bigBox">
-        <p className="title">IN GAME ACTIVITIES AND COMMUNITY EVENTS</p>
-        <div className="box">
-          <div className="item">
-            <img src={Img1} alt="" className="picture" />
-            <p className="itemTitle">How founding items look?</p>
-            <p className="itemSubtext">How founding items look?</p>
-          </div>
-          <div className="item">
-            <img src={Img2} alt="" className="picture" />
-            <p className="itemTitle">How founding items look?</p>
-            <p className="itemSubtext">How founding items look?</p>
-          </div>
-          <div className="item">
-            <img src={Img3} alt="" className="picture" />
-            <p className="itemTitle">How founding items look?</p>
-            <p className="itemSubtext">How founding items look?</p>
-          </div>
+      <p className="title">IN GAME ACTIVITIES AND COMMUNITY EVENTS</p>
+      <div className="event-box">
+        <div className="item-event">
+          <img src={Img1} alt="" className="picture" />
+          <p className="itemTitle">How founding items look?</p>
+          <p className="itemSubtext">How founding items look?</p>
         </div>
-        <button className="button">MORE EVENTS</button>
+        <div className="item-event">
+          <img src={Img2} alt="" className="picture" />
+          <p className="itemTitle">How founding items look?</p>
+          <p className="itemSubtext">How founding items look?</p>
+        </div>
+        <div className="item-event">
+          <img src={Img3} alt="" className="picture" />
+          <p className="itemTitle">How founding items look?</p>
+          <p className="itemSubtext">How founding items look?</p>
+        </div>
+      </div>
+      <div className="button">
+        <button>MORE EVENTS</button>
       </div>
       <img className="footerImg" src={FooterImg} alt="" />
     </div>

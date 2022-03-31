@@ -1,34 +1,42 @@
 .section8 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  padding: 55px 0;
+  padding: 55px 105px;
   background-color: black;
 
+
+  .vid-box {
+    width: 300px;
+    margin-left: 115px;
+  }
+
   .Shiba {
-    width: 359px;
-    height: 521px;
+    width: 100%;
     transform: rotateY(180deg);
   }
 
-  .boxText {
-    margin-left: 230px;
+  .box-text {
+    margin-left: 30px;
   }
 
+ 
   .title {
-    font-family: "TitanOne";
-    font-size: 68px;
+    font-family: "Titan One";
+    font-weight: 400;
+    font-size: 64px;
     line-height: 73px;
     color: #ffffff;
   }
 
   .subText {
-    font-family: "Asap_Thin";
+    font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     color: #ffffff;
-    margin: 20px 0 40px 0;
+    margin: 12px 0 50px 0;
   }
+
   .iconBox {
     display: flex;
     width: 60%;
@@ -36,14 +44,68 @@
     align-items: center;
   }
 
-  .btn {
-    font-family: "Asap";
+  .btn {  
     width: 400px;
     height: 82px;
-    font-size: 38px;
     background: #ffcd36;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
     border-radius: 12px;
     margin: 40px 0;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+  }
+
+
+  @media screen and (max-width: 1400px){
+    
+    .title{
+      font-size: 50px;
+    line-height: 54px;
+    }
+
+    .btn{
+      width: 340px;
+      height: 76px;
+      font-size: 30px;
+    }
+
+    .vid-box {
+      text-align: center;
+      width: 400px;
+      margin-left: 0;
+    }
+  }
+
+  @media screen and (max-width: 1200px){
+    .title{
+      font-size: 40px;
+    }
+
+    .subText {
+      font-size: 22px;
+    }
+  }
+
+  @media screen and (max-width: 1000px){
+    flex-direction: column;
+
+    .vid-box {
+      margin-bottom: 25px;
+    }
+
+    .Shiba {
+      width: 75%;
+    }
+
+    
+  }
+
+  @media screen and (min-width: 700px){
+
+    .title {
+      font-size: 32px;
+      line-height: 40px;
+    }
   }
 }

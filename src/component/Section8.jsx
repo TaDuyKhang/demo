@@ -4,10 +4,13 @@ import Shiba from "../img/images/shiba_loop.webm";
 function Section8() {
   return (
     <div className="section8">
-      <video className="Shiba" playsInline autoPlay muted loop>
-        <source src={Shiba} type="video/mp4" />
-      </video>
-      <div className="boxText">
+      <div className="vid-box">
+        <video className="Shiba" playsInline autoPlay muted loop>
+          <source src={Shiba} type="video/mp4" />
+        </video>
+      </div>
+
+      <div className="box-text">
         <p className="title">JOIN OUR COMMUNITY</p>
         <p className="subText">Become a part of our community for joy</p>
         <div className="iconBox">

@@ -8,27 +8,32 @@ import "../css/index.scss";
 
 function Section2() {
   return (
-    <div className="section2" id="news">
-      <ul className="list">
-        <li className="item">
-          <img className="border" src={Border} alt="" />
-          <img className="content" src={Content} alt="" />
-        </li>
-        <li className="boxText">
-          <p className="title">Multiplayer Social-Network game</p>
-          <p className="subText">
-            All Day is a social game in which players can have a complete gaming
-            experience with many mini games, social platform features, and
-            blockchain technology.
-          </p>
-          <div className="boxIcon">
-            <img src={AS} alt="App Store" />
-            <img src={GGP} alt="Google Play" />
-          </div>
-        </li>
-      </ul>
+    <section className="section2" id="news">
+      <div className="container-content">
+        <ul className="section2-box">
+          <li className="banner-img">
+            <img className="border" src={Border} alt="" />
+            <img className="content" src={Content} alt="" />
+          </li>
+
+          <li className="section2-boxText">
+            <p className="title">Multiplayer Social-Network game</p>
+
+            <p className="subText">
+              All Day is a social game in which players can have a complete
+              gaming experience with many mini games, social platform features,
+              and blockchain technology.
+            </p>
+
+            <div className="boxIcon">
+              <img src={AS} alt="App Store" />
+              <img src={GGP} alt="Google Play" />
+            </div>
+          </li>
+        </ul>
+      </div>
       <img className="footerImg" src={FooterImg} alt="" />
-    </div>
+    </section>
   );
 }
 

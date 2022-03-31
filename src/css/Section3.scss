@@ -1,63 +1,60 @@
 .section3 {
-  height: 1000px;
   background-image: url(../img/bgcSection3.png);
   background-size: cover;
   position: relative;
+  background-color: #9985fe;
+  padding: 0 2rem;
 
-  .bigBox {
-    width: 82%;
-    margin: 0 auto;
-  }
-
-  .box {
-    margin: 0 auto;
+  .event-box {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-direction: column;
   }
 
   .title {
-    padding: 125px 0 85px 0;
-    font-family: "TitanOne";
-    font-size: 40px;
+    padding: 45px 0 30px 0;
+    font-family: "Titan One";
+    font-size: 24px;
     color: white;
   }
 
-  .item {
-    width: 25%;
-
+  .item-event {
+    width: 100%;
     background-color: #fff;
-
     display: flex;
     flex-direction: column;
     padding: 30px 30px;
+    margin-bottom: 25px;
     border-radius: 12px;
   }
 
   .itemTitle {
-    font-family: "Asap";
-    margin: 15px 0;
-    // font-weight: bold;
-    font-size: 22px;
+    font-weight: 700;
+    margin: 24px 0 5px 0;
+    font-size: 20px;
+    line-height: 28px;
   }
 
   .itemSubtext {
-    font-size: 22px;
-    font-family: "Asap_Thin";
-    font-weight: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
   }
 
   .button {
-    background: linear-gradient(270.25deg, #f85b17 0.44%, #f8189d 100.03%);
-    border-radius: 8px;
-    width: 203px;
-    height: 52px;
-    font-family: "Asap";
-    font-size: 24px;
-    display: block;
-    border: none;
-    margin: 0 auto;
-    color: #ffffff;
-    margin-top: 70px;
+    text-align: center;
+    button {
+      background: linear-gradient(270.25deg, #f85b17 0.44%, #f8189d 100.03%);
+      border-radius: 8px;
+      font-size: 24px;
+      // display: block;
+      border: none;
+      width: 203px;
+      height: 52px;
+      margin: 25px 0 80px 0;
+      padding: 12px 24px;
+      color: #ffffff;
+    }
   }
 
   .footerImg {
@@ -67,5 +64,23 @@
     transform: translateY(50%);
     width: 100%;
     z-index: 2;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding: 0 40px;
+
+    .event-box {
+      flex-direction: unset;
+    }
+
+    .item-event {
+      width: 30%;
+    }
+  }
+
+  @media screen and (min-width: 1440px) {
+    .item-event {
+      width: 27%;
+    }
   }
 }

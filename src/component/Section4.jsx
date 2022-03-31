@@ -8,40 +8,40 @@ import FooterImg from "../img/footerImg.png";
 function Section4() {
   return (
     <div className="section4">
-      <div className="box">
-        <div className="boxLeft">
-          <img className="icon" src={Icon} alt="" />
-          <div className="bottomBox bottomLeft">
-            <div className="imgBox">
-              <img className="img" src={Img1} alt="" />
-              <img className="img3" src={Img3} alt="" />
-            </div>
-            <p className="bottomBox-title">Fishing</p>
-            <p className="bottomBox-subText">How founding items look?</p>
-            <button className="btn">Button</button>
-          </div>
+      <div className="section4-box">
+        <div className="item-box child-1">
+          <img className="icon " src={Icon} alt="" />
         </div>
 
-        <div className="boxRight">
-          <div className="textBox">
-            <p className="textBox-title">
-              10+ Multiplayer games under Battle Royale mode
-            </p>
-            <p className="textBox-subText">
-              All Day is a social game in which players can have a complete
-              gaming experience with many mini games, social platform features,
-              and blockchain technology.
-            </p>
+        <div className="bottom-box-text item-box child-2">
+          <div className="img-box">
+            <img className="img" src={Img1} alt="" />
+            <img className="img3" src={Img3} alt="" />
           </div>
-          <div className="bottomBox">
-            <div className="imgBox">
-              <img className="img" src={Img2} alt="" />
-              <img className="img3" src={Img3} alt="" />
-            </div>
-            <p className="bottomBox-title">Battle Royale</p>
-            <p className="bottomBox-subText">How founding items look?</p>
-            <button className="btn">Button</button>
+          <p className="bottom-box-title">Fishing</p>
+          <p className="bottom-box-subText">How founding items look?</p>
+          <button className="btn">Button</button>
+        </div>
+
+        <div className="text-box item-box child-3">
+          <p className="text-box-title">
+            10+ Multiplayer games under Battle Royale mode
+          </p>
+          <p className="text-box-subText">
+            All Day is a social game in which players can have a complete gaming
+            experience with many mini games, social platform features, and
+            blockchain technology.
+          </p>
+        </div>
+
+        <div className="bottom-box-text item-box child-4">
+          <div className="img-box">
+            <img className="img" src={Img2} alt="" />
+            <img className="img3" src={Img3} alt="" />
           </div>
+          <p className="bottom-box-title">Battle Royale</p>
+          <p className="bottom-box-subText">How founding items look?</p>
+          <button className="btn">Button</button>
         </div>
       </div>
       <img className="footerImg" src={FooterImg} alt="" />
