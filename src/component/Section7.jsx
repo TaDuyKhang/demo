@@ -132,6 +132,7 @@ function Section7() {
 
             {TIME_LINE.map((item, index) => (
               <div
+                key={index}
                 className={`item ${index % 2 === 0 ? "odd" : "even"}`}
                 style={{
                   "--position":

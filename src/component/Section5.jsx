@@ -71,8 +71,8 @@ function Section5() {
             },
           }}
         >
-          {NFT_ITEMS.map((item) => (
-            <SwiperSlide>
+          {NFT_ITEMS.map((item, index) => (
+            <SwiperSlide key={index}>
               <NftItem className="item" {...item} />
             </SwiperSlide>
           ))}
