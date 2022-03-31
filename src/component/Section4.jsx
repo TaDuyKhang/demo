@@ -8,12 +8,12 @@ import FooterImg from "../img/footerImg.png";
 function Section4() {
   return (
     <div className="section4">
-      <div className="section4-box">
-        <div className="item-box child-1">
+      <div className="single-mode mode-item">
+        <div className=" img-box ">
           <img className="icon " src={Icon} alt="" />
         </div>
 
-        <div className="bottom-box-text item-box child-2">
+        <div className="bottom-box-text  ">
           <div className="img-box">
             <img className="img" src={Img1} alt="" />
             <img className="img3" src={Img3} alt="" />
@@ -22,8 +22,10 @@ function Section4() {
           <p className="bottom-box-subText">How founding items look?</p>
           <button className="btn">Button</button>
         </div>
+      </div>
 
-        <div className="text-box item-box child-3">
+      <div className="battle-royale-mode mode-item">
+        <div className="text-box ">
           <p className="text-box-title">
             10+ Multiplayer games under Battle Royale mode
           </p>
@@ -34,7 +36,7 @@ function Section4() {
           </p>
         </div>
 
-        <div className="bottom-box-text item-box child-4">
+        <div className="bottom-box-text">
           <div className="img-box">
             <img className="img" src={Img2} alt="" />
             <img className="img3" src={Img3} alt="" />
@@ -44,6 +46,7 @@ function Section4() {
           <button className="btn">Button</button>
         </div>
       </div>
+
       <img className="footerImg" src={FooterImg} alt="" />
     </div>
   );

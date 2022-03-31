@@ -16,7 +16,6 @@
   }
 
   li {
-    font-family: "Asap";
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -24,7 +23,44 @@
     color: white;
   }
 
-  img {
-    width: 273px;
+  @media screen and (max-width: 1200px) {
+    justify-content: space-around;
+
+    .boxText {
+      margin: 0;
+    }
   }
+  img {
+    width: 23%;
+  }
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+
+
+    img {
+      width: 25%;
+    }
+    .boxText {
+     flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    ul {
+      margin: 10px;
+    }
+    
+    li {
+      font-size: 24px;
+      margin: 10px;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .boxText {
+      flex-direction: column;
+       justify-content: center;
+     }
+  }
+
 }

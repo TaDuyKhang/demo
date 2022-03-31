@@ -27,7 +27,7 @@ function App() {
       {/* <Section5 /> */}
       {/* <Section7 /> */}
       <Section8 />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
