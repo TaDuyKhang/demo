@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import "../css/Footer.scss";
 import Logo from "../img/AllDay_Logo 2.png";
 

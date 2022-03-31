@@ -107,6 +107,10 @@ $header-desktop-height: 60px;
       display: block;
       padding: 1rem 0 1rem 0.75rem;
     }
+
+    &.active a {
+      color: var(--primary-color);
+    }
   }
 
   .market-place {
@@ -166,17 +170,25 @@ $header-desktop-height: 60px;
 
       .link {
         margin-right: 8px;
+        padding: 0 0.75rem;
         a {
           padding-right: 0.75rem;
-          padding: 0.5rem 0.75rem;
+          padding: 19px 0;
           font-size: 1rem;
+          transition: all 0.3s ease-in-out;
+          border-bottom: 2px solid transparent;
+        }
+
+        &.active a {
+          color: #fff;
+          border-color: #fff;
         }
       }
     }
 
     .market-place {
       margin-top: 0;
-      padding: 0.375rem 0.75rem;
+      padding: 0.375rem 0.75rem !important;
 
       a {
         padding: 0 !important;

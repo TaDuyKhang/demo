@@ -2,7 +2,6 @@ import "../css/Section3.scss";
 import Img1 from "../img/section3.1.png";
 import Img2 from "../img/section3.2.png";
 import Img3 from "../img/section3.3.png";
-import FooterImg from "../img/footerImg.png";
 
 function Section3() {
   return (

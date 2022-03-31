@@ -2,9 +2,7 @@ import Border from "../img/apple-iphone13pro-graphite-landscape 1.png";
 import Content from "../img/nhieumat.png";
 import GGP from "../img/gg.png";
 import AS from "../img/xdg.png";
-import FooterImg from "../img/footerImg.png";
 import "../css/Section2.scss";
-import "../css/index.scss";
 
 function Section2() {
   return (

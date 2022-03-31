@@ -3,9 +3,9 @@ import Icon from "../img/elan.png";
 import Img1 from "../img/section4.1.png";
 import Img2 from "../img/section4.2.png";
 import Img3 from "../img/section4.3.png";
-import FooterImg from "../img/footerImg.png";
 
 function Section4() {
+  console.log("re-render");
   return (
     <div className="section4">
       <div className="content-container">
