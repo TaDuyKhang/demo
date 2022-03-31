@@ -1,14 +1,20 @@
+
 .section8 {
 
   background-color: black;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../img/bgcSection8.jpg);
+  background-size: cover;
   padding-left: 2rem;
   padding-right: 2rem;
   padding: 4rem 0;
   position: relative;
 
+  
+
   .section-line {
     top: 0;
     transform: translateY(-50%);
+    
   }
 
  .content {
@@ -48,6 +54,7 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-row-gap: 2rem;
+    align-items: center;
 
   }
 

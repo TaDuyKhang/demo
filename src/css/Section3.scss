@@ -72,8 +72,13 @@
   }
 
   @media screen and (min-width: 1440px) {
+    
+    .event-box{
+      justify-content: center;
+    }
     .item-event {
-      width: 27%;
+      width: 31%;
+      margin: 0 30px;
     }
   }
 }

@@ -9,25 +9,85 @@ function Footer() {
           <img src={Logo} alt="" />
           <div className="boxText">
             <ul className="list">
-              <li>HOME</li>
-              <li>CONTACT</li>
-              <li>US</li>
-              <li>SUPPORT</li>
-              <li>PARTNERSHIP</li>
+              <li>
+                <a href="" title="HOME">
+                  HOME
+                </a>
+              </li>
+              <li>
+                <a href="#" title="CONTACT">
+                  CONTACT
+                </a>
+              </li>
+              <li>
+                <a href="#" title="US">
+                  US
+                </a>
+              </li>
+              <li>
+                <a href="#" title="SUPPORT">
+                  SUPPORT
+                </a>
+              </li>
+              <li>
+                <a href="#" title="PARTNERSHIP">
+                  PARTNERSHIP
+                </a>
+              </li>
             </ul>
             <ul className="list">
-              <li>HOME</li>
-              <li>CONTACT</li>
-              <li>US</li>
-              <li>SUPPORT</li>
-              <li>PARTNERSHIP</li>
+              <li>
+                <a href="" title="HOME">
+                  HOME
+                </a>
+              </li>
+              <li>
+                <a href="#" title="CONTACT">
+                  CONTACT
+                </a>
+              </li>
+              <li>
+                <a href="#" title="US">
+                  US
+                </a>
+              </li>
+              <li>
+                <a href="#" title="SUPPORT">
+                  SUPPORT
+                </a>
+              </li>
+              <li>
+                <a href="#" title="PARTNERSHIP">
+                  PARTNERSHIP
+                </a>
+              </li>
             </ul>
             <ul className="list">
-              <li>HOME</li>
-              <li>CONTACT</li>
-              <li>US</li>
-              <li>SUPPORT</li>
-              <li>PARTNERSHIP</li>
+              <li>
+                <a href="" title="HOME">
+                  HOME
+                </a>
+              </li>
+              <li>
+                <a href="#" title="CONTACT">
+                  CONTACT
+                </a>
+              </li>
+              <li>
+                <a href="#" title="US">
+                  US
+                </a>
+              </li>
+              <li>
+                <a href="#" title="SUPPORT">
+                  SUPPORT
+                </a>
+              </li>
+              <li>
+                <a href="#" title="PARTNERSHIP">
+                  PARTNERSHIP
+                </a>
+              </li>
             </ul>
           </div>
         </div>
