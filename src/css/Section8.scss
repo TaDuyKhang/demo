@@ -74,11 +74,17 @@
     }
 
     .Shiba{
-      width: 75%;
+      width: unset !important;
+      height: 441px;
+    }
+
+    .vid-box {
+      flex: 1;
     }
 
     .box-text {
-      width: 86%;
+      margin-left: 5rem;
+      flex: 2;
     }
 
     .title{

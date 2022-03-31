@@ -62,6 +62,10 @@
     .content {
       flex-direction: unset;
       justify-content: space-between;
+      
+      img {
+        margin-left: 2rem;
+      }
     }
 
     img {
