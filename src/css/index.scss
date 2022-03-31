@@ -42,11 +42,11 @@ a {
   bottom: 0;
   transform: translateY(50%);
   background-image: url("../img/wave.png");
-  height: 100px;
+  height: 70px;
   background-size: contain;
   z-index: 2;
 
   @media screen and (min-width: 768px) {
-    height: 119px;
+    height: 110px;
   }
 }

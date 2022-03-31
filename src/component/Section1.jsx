@@ -3,8 +3,8 @@ import Chili_loop from "../img/images/chili_loop.webm";
 import Box_loop from "../img/images/box_loop.webm";
 import Rosa_loop from "../img/images/rosa_loop.webm";
 import BannerImg from "../img/banner.png";
-import Footer from "../img/footerImg.png";
-import {useEffect, useLayoutEffect, useState} from "react";
+import {useLayoutEffect, useState} from "react";
+import {useMobileDetect} from "../hooks/mobile-detect.hook";
 
 const CHARACTERS_SOURCE = [
   {
@@ -22,11 +22,7 @@ const CHARACTERS_SOURCE = [
 ];
 
 function Section1() {
-  const [isMobile, setIsMobile] = useState(true);
-
-  useLayoutEffect(() => {
-    setIsMobile(window.innerWidth < 768);
-  }, []);
+  const isMobile = useMobileDetect();
 
   return (
     <section className="section1">

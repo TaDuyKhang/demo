@@ -2,7 +2,7 @@ import NftItem from "./NftItem";
 import FooterImg from "../img/footerImg.png";
 import Img from "../img/section5/item-avatar.png";
 import "../css/Section5.scss";
-import {Swiper, SwiperSlide} from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
 const NFT_ITEMS = [

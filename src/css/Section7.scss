@@ -1,72 +1,166 @@
 .section7 {
-  background-image: url(../img/bgcSection7.png);
-  height: 700px;
-  padding: 110px 0 0 130px;
+  background-image: url(../img/section7/background.png),
+    linear-gradient(#f88015, #ffcc32);
   position: relative;
   background-size: cover;
-  .title {
-    width: 30%;
-    font-family: "TitanOne";
-    font-size: 45px;
-    line-height: 50px;
-    color: #ffffff;
-    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  }
+  padding: 4rem 0;
+  overflow: hidden;
 
-  .subText {
-    margin: 50px 0 100px 0;
-    width: 40%;
-    font-family: "Asap";
-    font-size: 24px;
-    line-height: 34px;
-    /* or 142% */
+  .textbox {
+    .title {
+      font-family: "Titan One";
+      margin-bottom: 2rem;
+      font-size: 2.25rem;
+      line-height: 41px;
+      color: #ffffff;
+      text-shadow: 0px 4px 10px rgb(0 0 0 / 10%);
+      max-width: 453px;
+    }
 
-    color: #ffffff;
-  }
-
-  .topBox {
-    display: flex;
-    justify-content: start;
-    position: relative;
-    z-index: 3;
-    transform: translateY(7px);
-  }
-
-  .bottomBox {
-    display: inline-flex;
-    justify-content: start;
-    position: relative;
-    z-index: 3;
-    transform: translateY(-7px);
-    left: 155px;
-  }
-
-  .process {
-    position: relative;
-    z-index: 3;
+    .sub-text {
+      margin: 1.25rem 0 3rem;
+      font-size: 1.125rem;
+      font-weight: 700;
+      line-height: 1.4;
+      color: #ffffff;
+      max-width: 600px;
+    }
   }
 
   .line {
-    width: 1400px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    height: 800px;
+    width: 12px;
+    margin: 0 auto;
+    background: linear-gradient(#f7d622, #fc82a1, #9872d1, #2b7de4);
+    border-radius: 2rem;
   }
 
-  .JD {
-    position: absolute;
-    width: 555px;
-    top: 45px;
-    right: 50px;
-    z-index: 3;
+  .timeline {
+    position: relative;
+
+    .item {
+      position: absolute;
+      left: 50%;
+      top: var(--position);
+      padding-left: 2.25rem;
+
+      &::before {
+        content: "";
+        display: block;
+        width: 13px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: #000;
+        position: absolute;
+        left: 0;
+        top: 0;
+        transform: translateX(-50%);
+      }
+
+      &.odd {
+        left: auto;
+        right: 50%;
+        padding-left: 0;
+        padding-right: 2.25rem;
+
+        &::before {
+          left: auto;
+          right: 0;
+          transform: translateX(50%);
+        }
+      }
+    }
   }
 
-  .footerImg {
-    position: absolute;
-    bottom: 0;
-    right: 0px;
-    transform: translateY(50%);
-    width: 100%;
-    z-index: 2;
+  @media screen and (min-width: 768px) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    .content-container {
+      position: relative;
+      padding-bottom: 6rem;
+    }
+
+    .JD {
+      position: absolute;
+      height: 400px;
+      bottom: 0;
+      left: 50%;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 6rem;
+    padding-bottom: 4.5rem;
+
+    .content-container {
+      padding-bottom: 0;
+    }
+
+    .textbox .sub-text {
+      margin-bottom: 3.5rem;
+      font-size: 1.5rem;
+    }
+
+    .timeline-wrapper {
+      min-height: 300px;
+      display: flex;
+      align-items: center;
+    }
+
+    .timeline {
+      flex: 1;
+    }
+
+    .line {
+      height: 12px;
+      width: 100%;
+      background: linear-gradient(to right, #f7d622, #fc82a1, #9872d1, #2b7de4);
+    }
+
+    .timeline {
+      .item {
+        top: 50%;
+        right: auto !important;
+        left: var(--position) !important;
+        padding-top: 2.25rem;
+        padding-left: 0;
+
+        &::before {
+          left: 0 !important;
+          top: 0;
+          transform: translateY(-50%);
+        }
+
+        &.odd {
+          top: unset !important;
+          bottom: 50% !important;
+          padding-top: 0;
+          padding-bottom: 2.25rem;
+          padding-right: 0;
+
+          &::before {
+            top: auto;
+            bottom: 0;
+            transform: translateY(50%);
+          }
+        }
+      }
+    }
+
+    .JD {
+      left: unset;
+      height: 500px;
+      right: -2rem;
+      bottom: 2rem;
+    }
+  }
+
+  @media screen and (min-width: 1440px) {
+    .JD {
+      height: 615px;
+      right: -7rem;
+      bottom: 1rem;
+    }
   }
 }

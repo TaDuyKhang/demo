@@ -3,18 +3,19 @@
   background-size: cover;
   position: relative;
   background-color: #9985fe;
-  padding: 0 2rem;
+  padding: 4rem 0;
 
   .event-box {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-direction: column;
   }
 
   .title {
-    padding: 45px 0 30px 0;
     font-family: "Titan One";
-    font-size: 24px;
+    margin-bottom: 2.5rem;
+    font-size: 2.25rem;
+    line-height: 41px;
     color: white;
   }
 
@@ -46,28 +47,20 @@
     button {
       background: linear-gradient(270.25deg, #f85b17 0.44%, #f8189d 100.03%);
       border-radius: 8px;
-      font-size: 24px;
-      // display: block;
+      padding: 15px 30px;
       border: none;
-      width: 203px;
-      height: 52px;
-      margin: 25px 0 80px 0;
-      padding: 12px 24px;
-      color: #ffffff;
+      color: white;
+      font-size: 1rem;
+      font-weight: 600;
+      margin: 2.5rem auto 0;
     }
   }
 
-  .footerImg {
-    position: absolute;
-    bottom: 0;
-    right: 0px;
-    transform: translateY(50%);
-    width: 100%;
-    z-index: 2;
-  }
+
 
   @media screen and (min-width: 768px) {
-    padding: 0 40px;
+    padding-left: 2rem;
+    padding-right: 2rem;
 
     .event-box {
       flex-direction: unset;

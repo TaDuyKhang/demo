@@ -32,7 +32,7 @@ function Section2() {
           </li>
         </ul>
       </div>
-      <img className="footerImg" src={FooterImg} alt="" />
+      <div className="section-line"></div>
     </section>
   );
 }

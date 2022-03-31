@@ -1,5 +1,5 @@
 .section2 {
-  padding: 3rem;
+  padding: 4rem 0;
 
   // position: relative;
   margin: 0 auto;
@@ -34,13 +34,15 @@
 
   .title {
     font-family: "Titan One";
-    line-height: 30px;
-    font-size: 24px;
+    // line-height: 30px;
+    font-size:  2.25rem;
     margin: 15px 0;
   }
 
   .subText {
     margin: 15px 0;
+    font-size:  1.125rem;
+
     line-height: 20px;
   }
 
@@ -52,16 +54,12 @@
     }
   }
 
-  .footerImg {
-    position: absolute;
-    bottom: 0;
-    right: 0px;
-    transform: translateY(50%);
-    width: 100%;
-    z-index: 2;
-  }
+
 
   @media screen and (min-width: 768px) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+
     .section2-box {
       flex-direction: unset;
       max-width: none;

@@ -1,8 +1,6 @@
 import "./css/index.scss";
 import Menu from "./component/Menu.jsx";
-import Download from "./component/Section2";
 import Section1 from "./component/Section1";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Section2 from "./component/Section2";
 import Section3 from "./component/Section3";
 import Section4 from "./component/Section4";
@@ -23,10 +21,9 @@ function App() {
         <Section4 />
         <Section5 />
         <Section6 />
+        <Section7 />
+        <Section8 />
       </div>
-      {/* <Section5 /> */}
-      {/* <Section7 /> */}
-      <Section8 />
       <Footer />
     </div>
   );

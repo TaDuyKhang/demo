@@ -1,5 +1,5 @@
 .section6 {
-  background: url(../img/section6/background.jpg), #a1e341;
+  background: url(../img/section6/background.jpg), #71c6ff;
   position: relative;
   padding: 4rem 0 4.5rem;
 
@@ -54,12 +54,12 @@
   .swiper-button-prev {
     background-position: 17px center;
     background-image: url("../img/section6/left-arrow.svg") !important;
-    transform: translateX(calc(-50% - 12px));
+    transform: translateX(calc(-100% - 6px));
   }
 
   .swiper-button-next {
     background-image: url("../img/section6/right-arrow.svg") !important;
-    transform: translateX(calc(50% + 12px));
+    transform: translateX(6px);
   }
 
   @media screen and (min-width: 768px) {

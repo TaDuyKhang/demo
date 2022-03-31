@@ -7,28 +7,30 @@ import FooterImg from "../img/footerImg.png";
 function Section3() {
   return (
     <div className="section3">
-      <p className="title">IN GAME ACTIVITIES AND COMMUNITY EVENTS</p>
-      <div className="event-box">
-        <div className="item-event">
-          <img src={Img1} alt="" className="picture" />
-          <p className="itemTitle">How founding items look?</p>
-          <p className="itemSubtext">How founding items look?</p>
+      <div className="content-container">
+        <p className="title">IN GAME ACTIVITIES AND COMMUNITY EVENTS</p>
+        <div className="event-box">
+          <div className="item-event">
+            <img src={Img1} alt="" className="picture" />
+            <p className="itemTitle">How founding items look?</p>
+            <p className="itemSubtext">How founding items look?</p>
+          </div>
+          <div className="item-event">
+            <img src={Img2} alt="" className="picture" />
+            <p className="itemTitle">How founding items look?</p>
+            <p className="itemSubtext">How founding items look?</p>
+          </div>
+          <div className="item-event">
+            <img src={Img3} alt="" className="picture" />
+            <p className="itemTitle">How founding items look?</p>
+            <p className="itemSubtext">How founding items look?</p>
+          </div>
         </div>
-        <div className="item-event">
-          <img src={Img2} alt="" className="picture" />
-          <p className="itemTitle">How founding items look?</p>
-          <p className="itemSubtext">How founding items look?</p>
-        </div>
-        <div className="item-event">
-          <img src={Img3} alt="" className="picture" />
-          <p className="itemTitle">How founding items look?</p>
-          <p className="itemSubtext">How founding items look?</p>
+        <div className="button">
+          <button>MORE EVENTS</button>
         </div>
       </div>
-      <div className="button">
-        <button>MORE EVENTS</button>
-      </div>
-      <img className="footerImg" src={FooterImg} alt="" />
+      <div className="section-line"></div>
     </div>
   );
 }
