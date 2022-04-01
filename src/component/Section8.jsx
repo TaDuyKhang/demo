@@ -1,15 +1,22 @@
 import "../css/Section8.scss";
+import { useMobileDetect } from "../hooks/mobile-detect.hook";
 import Shiba from "../img/images/shiba_loop.webm";
+import ShibaImg from "../img/section8/shiba.png";
 
 function Section8() {
+  const isMoblie = useMobileDetect();
   return (
     <div className="section8">
       <div className="content-container">
         <div className="content">
           <div className="vid-box">
-            <video className="Shiba" playsInline autoPlay muted loop>
-              <source src={Shiba} type="video/mp4" />
-            </video>
+            {isMoblie ? (
+              <img className="shiba-img" src={ShibaImg} alt="Shiba" />
+            ) : (
+              <video className="Shiba" playsInline autoPlay muted loop>
+                <source src={Shiba} type="video/mp4" />
+              </video>
+            )}
           </div>
 
           <div className="box-text">

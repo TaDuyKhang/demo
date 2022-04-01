@@ -1,7 +1,7 @@
-import Border from "../img/apple-iphone13pro-graphite-landscape 1.png";
-import Content from "../img/nhieumat.png";
-import GGP from "../img/gg.png";
-import AS from "../img/xdg.png";
+import Border from "../img/section2/apple-iphone13pro-graphite-landscape 1.png";
+import Content from "../img/section2/nhieumat.png";
+import GGP from "../img/section2/gg.png";
+import AS from "../img/section2/xdg.png";
 import "../css/Section2.scss";
 
 function Section2() {

@@ -4,7 +4,7 @@
   // position: relative;
   margin: 0 auto;
   background-color: #fd85a8;
-  background-image: url(../img/bgcSection2.png);
+  background-image: url(../img/section2/bgcSection2.png);
   background-size: cover;
   color: white;
   position: relative;
@@ -22,13 +22,29 @@
     img {
       width: 100%;
     }
+
+    &:before {
+      content: "";
+      display: block;
+      padding-top: 55%;
+    }
+  
+    .content {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 1;
+    }
   }
 
   .border {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    z-index: 2;
+    z-index: 3;
     height: 106%;
   }
 
@@ -95,6 +111,10 @@
       padding: 2.5rem 1.5rem 2.5rem 0;
     }
 
+    .section2-box {
+      max-width: 1376px;
+    }
+
     .banner-img {
       transform: translateX(-30px);
       min-width: 60%;
@@ -126,6 +146,11 @@
     .section2 {
       padding: 3rem 0;
     }
+
+    .section2-box {
+      max-width: 1376px;
+    }
+    
     .banner-img {
       transform: none;
       min-width: 60%;

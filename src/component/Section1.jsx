@@ -2,8 +2,8 @@ import "../css/Section1.scss";
 import Chili_loop from "../img/images/chili_loop.webm";
 import Box_loop from "../img/images/box_loop.webm";
 import Rosa_loop from "../img/images/rosa_loop.webm";
-import BannerImg from "../img/banner.png";
-import {useMobileDetect} from "../hooks/mobile-detect.hook";
+import BannerImg from "../img/section1/banner.png";
+import { useMobileDetect } from "../hooks/mobile-detect.hook";
 
 const CHARACTERS_SOURCE = [
   {

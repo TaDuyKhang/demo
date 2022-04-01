@@ -1,8 +1,8 @@
 import "../css/Section4.scss";
-import Icon from "../img/elan.png";
-import Img1 from "../img/section4.1.png";
-import Img2 from "../img/section4.2.png";
-import Img3 from "../img/section4.3.png";
+import Icon from "../img/section4/elan.png";
+import Img1 from "../img/section4/section4.1.png";
+import Img2 from "../img/section4/section4.2.png";
+import Img3 from "../img/section4/section4.3.png";
 
 function Section4() {
   console.log("re-render");
@@ -11,12 +11,12 @@ function Section4() {
       <div className="content-container">
         <div className="content">
           <div className="single-mode mode-item">
-            <div className=" img-box ">
+            <div className=" img-box elan-box">
               <img className="icon " src={Icon} alt="" />
             </div>
 
             <div className="bottom-box-text  ">
-              <div className="img-box">
+              <div className="img-box mode-description">
                 <img className="img" src={Img1} alt="" />
                 <img className="img3" src={Img3} alt="" />
               </div>
@@ -39,7 +39,7 @@ function Section4() {
             </div>
 
             <div className="bottom-box-text">
-              <div className="img-box">
+              <div className="img-box mode-description">
                 <img className="img" src={Img2} alt="" />
                 <img className="img3" src={Img3} alt="" />
               </div>

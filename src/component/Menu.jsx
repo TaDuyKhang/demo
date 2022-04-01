@@ -1,13 +1,13 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import Logo from "../img/image 14.png";
+import Logo from "../img/menu/image 14.png";
 import "../css/Menu.scss";
-import MenuIcon from "../img/menu.png";
-import CloseIcon from "../img/close.png";
-import {useLayoutEffect, useRef, useState} from "react";
-import {MENU_LIST} from "../constants/menu";
-import {useWindowPosition} from "../hooks/window-position.hook";
+import MenuIcon from "../img/menu/menu.png";
+import CloseIcon from "../img/menu/close.png";
+import { useLayoutEffect, useRef, useState } from "react";
+import { MENU_LIST } from "../constants/menu";
+import { useWindowPosition } from "../hooks/window-position.hook";
 
-function Menu({positionRefs, eleRefs}) {
+function Menu({ positionRefs, eleRefs }) {
   const menuRef = useRef(null);
   const [isShowMenu, setIsShowMenu] = useState(false);
   const [currentSection, setCurrentSection] = useState("");

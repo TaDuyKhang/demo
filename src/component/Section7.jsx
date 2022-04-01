@@ -1,7 +1,7 @@
 import "../css/Section7.scss";
 import JD from "../img/images/JD_loop.webm";
-import Smile from "../img/smile.png";
-import Xbox from "../img/xbox.svg";
+import Smile from "../img/section7/smile.png";
+import Xbox from "../img/section7/xbox.svg";
 import TimeLineItem from "./TimeLineItem";
 import { useMobileDetect } from "../hooks/mobile-detect.hook";
 import { useEffect, useState } from "react";

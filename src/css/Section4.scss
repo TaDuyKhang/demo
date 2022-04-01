@@ -1,6 +1,6 @@
 .section4 {
   margin: 0 auto;
-  background-image: url(../img/bgcSection4.png);
+  background-image: url(../img/section4/bgcSection4.png);
   background-size: cover;
   background-color: #f0c634;
   padding: 4rem 0;
@@ -32,12 +32,49 @@
  
 
   .img-box {
-    position: relative;
-    
+    position: relative; 
+  }
+
+  .elan-box {
+    width: 200px;
+    margin: 0 auto;
+
+    &:before {
+      content: "";
+      display: block;
+      padding-top: 230%;
+    }
+
+    .icon {
+      height: 100%;
+      object-fit: contain;
+      position: absolute;
+      transform: translateX(-50%);
+      left: 50%;
+      top: 0;
+      z-index: 3;
+    }
+  }
+
+  .mode-description {
+    &:before {
+      content: "";
+      display: block;
+      padding-top: 54%;
+    }
+
+    .img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 3;
+    }
   }
 
   .icon {
-    width: 200px;
     margin-bottom: 10px;
   }
 
@@ -46,8 +83,10 @@
   .img3 {
     width: 100%;
     position: absolute;
-    bottom: -15px;
+    bottom: 0;
     left: 0;
+    transform: translateY(50%);
+    z-index: 10;
   }
 
   .bottom-box-title {
@@ -99,6 +138,13 @@
     color: white;
   }
 
+
+  @media screen and (min-width: 768px) {
+    .elan-box {
+      width: 300px;
+    }
+  }
+
  
 
   @media screen and (min-width: 768px) {
@@ -115,9 +161,17 @@
       // margin: 15px;
     }
 
-    .icon {
-      width: 300px !important;
+    .elan-box {
+      // background-color: #eee;
+  
+      &:before {
+        content: "";
+        display: block;
+        padding-top: 240%;
+      }
     }
+
+  
 
     .single-mode {
       display: block;
@@ -152,12 +206,16 @@
 
     padding: 50px 105px;
 
-    .icon {
-      width: 350px !important;
-    }
+
 
     .mode-item {
       max-width: unset;
+    }
+
+    .elan-box {
+      &:before { 
+        padding-top: 297%;
+      }
     }
 
     .single-mode{
