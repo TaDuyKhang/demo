@@ -3,11 +3,11 @@ import Logo from "../img/menu/image 14.png";
 import "../css/Menu.scss";
 import MenuIcon from "../img/menu/menu.png";
 import CloseIcon from "../img/menu/close.png";
-import { useLayoutEffect, useRef, useState } from "react";
-import { MENU_LIST } from "../constants/menu";
-import { useWindowPosition } from "../hooks/window-position.hook";
+import {useLayoutEffect, useRef, useState} from "react";
+import {MENU_LIST} from "../constants/menu";
+import {useWindowPosition} from "../hooks/window-position.hook";
 
-function Menu({ positionRefs, eleRefs }) {
+function Menu({positionRefs, eleRefs}) {
   const menuRef = useRef(null);
   const [isShowMenu, setIsShowMenu] = useState(false);
   const [currentSection, setCurrentSection] = useState("");
@@ -63,7 +63,12 @@ function Menu({ positionRefs, eleRefs }) {
   };
 
   const scrollToTop = () => {
-    window.scrollTo(0, 0);
+    setIsShowMenu(false);
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
   };
 
   return (
