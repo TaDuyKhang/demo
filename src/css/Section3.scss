@@ -3,7 +3,7 @@
   background-size: cover;
   position: relative;
   background-color: #9985fe;
-  padding: 4rem 0;
+  padding: 4rem 0 4.5rem;
  
 
   .event-box {
@@ -94,7 +94,8 @@
   }
 
   @media screen and (min-width: 1440px) {
-    
+    padding: 5rem 2rem 6rem;
+
     .event-box{
       justify-content: space-between;
     }

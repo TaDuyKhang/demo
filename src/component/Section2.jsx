@@ -7,22 +7,25 @@ import "../css/Section2.scss";
 function Section2() {
   return (
     <section className="section2" id="news">
-      <div className="container-content">
+      <div className="content-container">
         <ul className="section2-box">
           <li className="banner-img">
-            <img className="border" src={Border} alt="" />
-            <img className="content" src={Content} alt="" />
+            <div className="banner-image">
+              <img className="border" src={Border} alt="" />
+              <img className="content" src={Content} alt="" />
+            </div>
           </li>
 
           <li className="section2-boxText">
-            <p className="title">Multiplayer Social-Network game</p>
+            <div className="text-content">
+              <p className="title">Multiplayer Social-Network game</p>
 
-            <p className="subText">
-              All Day is a social game in which players can have a complete
-              gaming experience with many mini games, social platform features,
-              and blockchain technology.
-            </p>
-
+              <p className="subText">
+                All Day is a social game in which players can have a complete
+                gaming experience with many mini games, social platform
+                features, and blockchain technology.
+              </p>
+            </div>
             <div className="boxIcon">
               <img src={AS} alt="App Store" />
               <img src={GGP} alt="Google Play" />

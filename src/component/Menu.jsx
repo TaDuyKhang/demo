@@ -62,13 +62,17 @@ function Menu({ positionRefs, eleRefs }) {
     setCurrentSection(sectionKey);
   };
 
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <div className="header" ref={menuRef}>
       <div className="header__content">
         {/* logo */}
-        <div className="logo">
+        <button onClick={scrollToTop} className="logo">
           <img className="img" src={Logo} alt="Logo" />
-        </div>
+        </button>
         <div className={`menu-wrapper ${isShowMenu ? "active" : ""}`}>
           <ul className="menu">
             <div className="menu__left-box">

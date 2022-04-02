@@ -6,12 +6,8 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding: 4rem 0;
+  padding: 4rem 0 4.5rem;
   position: relative;
-
-  
 
   .section-line {
     top: 0;
@@ -45,7 +41,6 @@
     font-family: "Titan One";
     font-weight: 400;
     font-size: 2.25rem;
-
     color: #ffffff;
   }
 
@@ -56,7 +51,6 @@
     margin: 12px 0 50px 0;
   }
 
-
   .icons {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -65,24 +59,31 @@
 
   }
 
-
-
   .btn-box{
     text-align: center;
   }
-
+  
   .btn {  
+    color: black;
     background: #ffcd36;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
     border-radius: 12px;
     margin-top: 40px;
-    padding: 15px 20px;
+    padding: 5px 13px;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 50px;
+    border: none;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   @media screen and (min-width: 1024px){
+    
+    padding: 5rem 2rem 6rem;
     .content {
       flex-direction: unset;
     }
@@ -122,8 +123,15 @@
 
     .btn {
       font-size: 36px;
+      font-weight: 700;
+      line-height: 50px;
+      padding: 16px 28px;
 
     }
 
+  }
+
+  @media screen and (min-width: 1440px) {
+    padding: 5rem 2rem 6rem;
   }
 }
