@@ -14,16 +14,14 @@ function Section2() {
       <div className="content-container">
         <ul className="section2-box">
           <li className="banner-img">
-            <div className="banner-image">
-              {width >= 768 && width <= 1439 ? (
-                <img className="collage" src={Collage} alt="" />
-              ) : (
-                <div>
-                  <img className="border" src={Border} alt="" />
-                  <img className="content" src={Content} alt="" />
-                </div>
-              )}
-            </div>
+            {width >= 820 && width <= 1439 ? (
+              <img className="collage" src={Collage} alt="" />
+            ) : (
+              <div>
+                <img className="border" src={Border} alt="" />
+                <img className="content" src={Content} alt="" />
+              </div>
+            )}
           </li>
 
           <li className="section2-boxText">
