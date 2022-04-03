@@ -1,25 +1,24 @@
-import {useState, useLayoutEffect} from "react";
-
-function debounce(func) {
-  let timer;
-  return function (event) {
-    if (timer) clearTimeout(timer);
-    timer = setTimeout(func, 1200, event);
-  };
-}
+import {useState, useEffect} from "react";
+import {debounce} from "../helper/debounce";
 
 export function useMobileDetect() {
   const [isMobile, setIsMobile] = useState(true);
 
-  useLayoutEffect(() => {
-    setIsMobile(window.innerWidth < 768);
+  useEffect(() => {
+    const resizeHandler = debounce(function () {
+      const _isMobile = window.innerWidth < 768;
+      isMobile !== _isMobile && setIsMobile(_isMobile);
+    }, 1200);
 
-    window.addEventListener(
-      "resize",
-      debounce(function () {
-        setIsMobile(window.innerWidth < 768);
-      })
-    );
+    window.addEventListener("resize", resizeHandler);
+
+    return () => {
+      window.removeEventListener("resize", resizeHandler);
+    };
+  }, [isMobile]);
+
+  useEffect(() => {
+    setIsMobile(window.innerWidth < 768);
   }, []);
 
   return isMobile;
