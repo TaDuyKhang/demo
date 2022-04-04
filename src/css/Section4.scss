@@ -175,6 +175,7 @@
       position: relative;
       margin-top: -305px;
       z-index: 5;
+      margin-bottom: 0;
       
       }
     } 
@@ -195,6 +196,12 @@
     .text-box-subText {
       font-size: 1.125rem;
     }
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding: 5rem 2rem 6rem;
+
+
   }
 
   @media screen and (min-width: 1440px){

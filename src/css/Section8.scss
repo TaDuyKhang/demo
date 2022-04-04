@@ -125,9 +125,11 @@
       font-weight: 700;
       line-height: 50px;
       padding: 16px 28px;
-
     }
+  }
 
+  @media screen and (min-width: 1200px) {
+    padding: 5rem 2rem 6rem;
   }
 
   @media screen and (min-width: 1440px) {
