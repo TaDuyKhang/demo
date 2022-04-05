@@ -91,10 +91,22 @@
     .item-event {
       width: 30%;
     }
+
+    .button {
+      button {
+        font-size: 1.5rem;
+      }
+    }
   }
 
   @media screen and (min-width: 1200px) {
     padding: 5rem 2rem 6rem;
+
+    .button {
+      button {
+      font-size: 1.5rem;
+      }
+    }
   }
 
   @media screen and (min-width: 1441px) {
