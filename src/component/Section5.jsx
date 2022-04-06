@@ -2,7 +2,6 @@ import NftItem from "./NftItem";
 import "../css/Section5.scss";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { useState } from "react";
 
 const NFT_ITEMS = [
   {
@@ -384,7 +383,6 @@ const NFT_ITEMS = [
 ];
 
 function Section5() {
-  const [randomItem, setRandomItem] = useState(getRandomItem(NFT_ITEMS));
   return (
     <div className="section5">
       <div className="content-container">
@@ -412,11 +410,15 @@ function Section5() {
             },
           }}
         >
-          {randomItem.map((item, index) => (
-            <SwiperSlide key={index}>
-              <NftItem className="item" {...item} />
-            </SwiperSlide>
-          ))}
+          {NFT_ITEMS.map((item, index) => {
+            if (index < 10) {
+              return (
+                <SwiperSlide key={index}>
+                  <NftItem className="item" {...item} />
+                </SwiperSlide>
+              );
+            }
+          })}
         </Swiper>
 
         <div className="button-wrapper">
@@ -427,16 +429,6 @@ function Section5() {
       <div className="section-line"></div>
     </div>
   );
-}
-
-function getRandomItem(arr) {
-  const Array = [];
-  for (let i = 0; i < 10; i++) {
-    const randomIndex = Math.floor(Math.random() * arr.length);
-    let item = arr[randomIndex];
-    Array.push(item);
-  }
-  return Array;
 }
 
 export default Section5;
