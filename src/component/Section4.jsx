@@ -21,7 +21,13 @@ function Section4() {
                 <img className="img3" src={Img3} alt="" />
               </div>
               <p className="bottom-box-title">Fishing</p>
-              <p className="bottom-box-subText">How founding items look?</p>
+              <p className="bottom-box-subText">
+                When life is getting tough, you don't want to compete with
+                others. <b>Fishing</b> is the best choice for you, spend your
+                time with your lovely rod. That doesn’t mean you can not enjoy
+                that moment alone, invite your friends to hang out,{" "}
+                <b>sell fish, collect garbage</b> to clean up our All-Day world
+              </p>
               <button className="btn">Button</button>
             </div>
           </div>
@@ -44,7 +50,14 @@ function Section4() {
                 <img className="img3" src={Img3} alt="" />
               </div>
               <p className="bottom-box-title">Battle Royale</p>
-              <p className="bottom-box-subText">How founding items look?</p>
+              <p className="bottom-box-subText">
+                <b>Battle Royale Contest</b> is a series of party games that
+                massive multiplayer compete together,{" "}
+                <b>only one victor remains</b>. The longer you survive, the more
+                points you get. All the points will be accumulated until the top
+                highest score players of the
+                <b>weekly leaderboard</b> are awarded
+              </p>
               <button className="btn">Button</button>
             </div>
           </div>
