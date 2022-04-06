@@ -3,10 +3,15 @@ import reloadIcon from "../img/section5/reload.svg";
 import hatIcon from "../img/section5/hat.svg";
 import "../css/NftItem.scss";
 
-function NftItem({imageSrc, balance, usdtValue, starValue, name}) {
+function NftItem({ imageSrc, bgcSrc, balance, usdtValue, starValue, name }) {
   return (
     <div className="textbox-01">
-      <div className="banner-wrapper">
+      <div
+        style={{
+          backgroundImage: `url(${bgcSrc})`,
+        }}
+        className="banner-wrapper"
+      >
         <img className="banner" src={imageSrc} alt={name} />
       </div>
 

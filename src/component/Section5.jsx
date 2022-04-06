@@ -6,6 +6,7 @@ import "swiper/css";
 const NFT_ITEMS = [
   {
     imageSrc: "img/section5/face01.0001.png",
+    bgcSrc: "img/section5/bgc1.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -13,6 +14,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/face02.0001.png",
+    bgcSrc: "img/section5/bgc2.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -20,6 +22,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/face03.0001.png",
+    bgcSrc: "img/section5/bgc3.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -27,6 +30,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/face04.0001.png",
+    bgcSrc: "img/section5/bgc4.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -34,6 +38,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/hair00.0001.png",
+    bgcSrc: "img/section5/bgc5.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -41,6 +46,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/hair01.0001.png",
+    bgcSrc: "img/section5/bgc1.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -48,6 +54,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/hair02.0001.png",
+    bgcSrc: "img/section5/bgc2.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -55,6 +62,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/hair03.0001.png",
+    bgcSrc: "img/section5/bgc3.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -62,6 +70,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/hair04.0001.png",
+    bgcSrc: "img/section5/bgc4.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -69,6 +78,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/hair05.0001.png",
+    bgcSrc: "img/section5/bgc5.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -76,6 +86,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/hair06.0001.png",
+    bgcSrc: "img/section5/bgc1.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -83,6 +94,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/hair07.0001.png",
+    bgcSrc: "img/section5/bgc2.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -90,6 +102,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/hair08.0001.png",
+    bgcSrc: "img/section5/bgc3.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -97,6 +110,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/hair09.0001.png",
+    bgcSrc: "img/section5/bgc4.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -104,6 +118,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/hat01.0001.png",
+    bgcSrc: "img/section5/bgc5.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -111,6 +126,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/hat07.0001.png",
+    bgcSrc: "img/section5/bgc1.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -118,6 +134,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/pant00.0001.png",
+    bgcSrc: "img/section5/bgc2.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -125,6 +142,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/pant01.0001.png",
+    bgcSrc: "img/section5/bgc3.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -132,6 +150,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/pant02.0001.png",
+    bgcSrc: "img/section5/bgc4.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -139,6 +158,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/pant03.0001.png",
+    bgcSrc: "img/section5/bgc5.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -146,6 +166,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/pant04.0001.png",
+    bgcSrc: "img/section5/bgc1.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -153,6 +174,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/pant07.0001.png",
+    bgcSrc: "img/section5/bgc2.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -160,6 +182,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/pant08.0001.png",
+    bgcSrc: "img/section5/bgc3.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -167,6 +190,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/pant08.png",
+    bgcSrc: "img/section5/bgc4.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -174,6 +198,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/shirt01.0001.png",
+    bgcSrc: "img/section5/bgc5.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -181,6 +206,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/shirt02.0001.png",
+    bgcSrc: "img/section5/bgc1.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -188,6 +214,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/shirt03.0001.png",
+    bgcSrc: "img/section5/bgc2.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -195,6 +222,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/shirt04.0001.png",
+    bgcSrc: "img/section5/bgc3.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -202,6 +230,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/shirt05.0001.png",
+    bgcSrc: "img/section5/bgc4.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -209,6 +238,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/shirt06.0001.png",
+    bgcSrc: "img/section5/bgc5.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -216,6 +246,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/shirt07.0001.png",
+    bgcSrc: "img/section5/bgc1.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -223,6 +254,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/shirt08.0001.png",
+    bgcSrc: "img/section5/bgc2.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -230,6 +262,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/shirt09.0001.png",
+    bgcSrc: "img/section5/bgc3.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -237,6 +270,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/shoes00.0001.png",
+    bgcSrc: "img/section5/bgc4.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -244,6 +278,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/shoes01.0001.png",
+    bgcSrc: "img/section5/bgc5.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -251,6 +286,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/shoes02.0001.png",
+    bgcSrc: "img/section5/bgc1.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -258,6 +294,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/shoes03.0001.png",
+    bgcSrc: "img/section5/bgc2.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -265,6 +302,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/shoes04.0001.png",
+    bgcSrc: "img/section5/bgc3.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -272,6 +310,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/shoes05.0001.png",
+    bgcSrc: "img/section5/bgc4.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -279,6 +318,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/shoes06.0001.png",
+    bgcSrc: "img/section5/bgc5.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -286,6 +326,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/shoes07.0001.png",
+    bgcSrc: "img/section5/bgc1.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -293,6 +334,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/shoes08.0001.png",
+    bgcSrc: "img/section5/bgc2.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -300,6 +342,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/shoes09.0001.png",
+    bgcSrc: "img/section5/bgc3.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -307,6 +350,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/skin01.0001.png",
+    bgcSrc: "img/section5/bgc4.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -314,6 +358,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/skin02.0001.png",
+    bgcSrc: "img/section5/bgc5.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -321,6 +366,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/skin03.0001.png",
+    bgcSrc: "img/section5/bgc1.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
@@ -328,6 +374,7 @@ const NFT_ITEMS = [
   },
   {
     imageSrc: "img/section5/skin04.0001.png",
+    bgcSrc: "img/section5/bgc2.png",
     balance: undefined,
     usdtValue: -120,
     starValue: 75,
