@@ -2,6 +2,8 @@ import "../css/Section7.scss";
 import JD from "../img/images/JD_loop.webm";
 import Smile from "../img/section7/smile.png";
 import Xbox from "../img/section7/xbox.svg";
+import TShirt from "../img/section7/t-shirt.png";
+import Island from "../img/section7/island.png";
 import TimeLineItem from "./TimeLineItem";
 import { useMobileDetect } from "../hooks/mobile-detect.hook";
 import { useEffect, useState } from "react";
@@ -10,95 +12,143 @@ const TIME_LINE_TOTAL_POINT = 14;
 const TIME_LINE_TOTAL_POINT_DESKTOP = 19;
 const TIME_LINE = [
   {
-    timeTitle: "Q1",
-    year: "2021",
+    timeTitle: "Q4",
+    year: "2022",
     topPoint: 0,
     group: [
       {
         icon: Smile,
-        text: "World Concept hello World",
+        text: "World Concept",
       },
       {
         icon: Xbox,
         text: "Internal MVP",
+      },
+    ],
+  },
+  {
+    timeTitle: "Q1",
+    year: "2022",
+    topPoint: 2,
+    group: [
+      {
+        icon: Smile,
+        text: "Treasure Box Initial Sale",
+      },
+      {
+        icon: Xbox,
+        text: "Market Place",
+      },
+      {
+        icon: TShirt,
+        text: "Fishing Game",
+      },
+      {
+        icon: Island,
+        text: "Testnet Release",
       },
     ],
   },
   {
     timeTitle: "Q2",
-    year: "2021",
-    topPoint: 2,
+    year: "2022",
+    topPoint: 4,
     group: [
       {
         icon: Smile,
-        text: "World Concept",
+        text: "Testnet Release",
       },
       {
         icon: Xbox,
-        text: "Internal MVP",
+        text: "Battle Royale Games",
+      },
+      {
+        icon: TShirt,
+        text: "Ingame Social Activities",
+      },
+      {
+        icon: Island,
+        text: "NFT Creator Event",
+      },
+      {
+        icon: Smile,
+        text: "Mainet Release",
       },
     ],
   },
   {
     timeTitle: "Q3",
-    year: "2021",
-    topPoint: 4,
+    year: "2022",
+    topPoint: 6,
     group: [
       {
         icon: Smile,
-        text: "World Concept",
+        text: "Co-Op Escape Game",
       },
       {
         icon: Xbox,
-        text: "Internal MVP",
+        text: "NFT Creator Workshop",
+      },
+      {
+        icon: TShirt,
+        text: "More Party Games",
       },
     ],
   },
   {
     timeTitle: "Q4",
-    year: "2021",
-    topPoint: 6,
-    group: [
-      {
-        icon: Smile,
-        text: "World Concept",
-      },
-      {
-        icon: Xbox,
-        text: "Internal MVP",
-      },
-    ],
-  },
-  {
-    timeTitle: "Q5",
-    year: "2021",
+    year: "2022",
     topPoint: 8,
     group: [
       {
         icon: Smile,
-        text: "World Concept",
+        text: "Land Initial Sale",
+      },
+      {
+        icon: Xbox,
+        text: "Restaurant",
+      },
+      {
+        icon: TShirt,
+        text: "Engagement Event",
       },
     ],
   },
   {
-    timeTitle: "Q6",
-    year: "2021",
+    timeTitle: "Q1",
+    year: "2022",
     topPoint: 10,
     group: [
       {
         icon: Smile,
-        text: "World Concept",
+        text: "RPG World",
+      },
+      {
+        icon: Xbox,
+        text: "House Building",
+      },
+      {
+        icon: TShirt,
+        text: "Co-Op RPG Arena",
       },
     ],
   },
   {
-    timeTitle: "Q7",
-    year: "2021",
+    timeTitle: "Q2",
+    year: "2022",
     topPoint: 12,
     group: [
       {
         icon: Smile,
-        text: "World Concept",
+        text: "VR Implement",
+      },
+      {
+        icon: Xbox,
+        text: "More Party Game",
+      },
+      {
+        icon: TShirt,
+        text: "Decentralize The Game",
       },
     ],
   },

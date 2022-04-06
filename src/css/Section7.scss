@@ -89,7 +89,7 @@
     }
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1300px) {
     padding-top: 6rem;
     padding-bottom: 4.5rem;
 
@@ -138,6 +138,7 @@
           padding-top: 0;
           padding-bottom: 2.25rem;
           padding-right: 0;
+          min-height: 174px;
 
           &::before {
             top: auto;
@@ -150,18 +151,18 @@
 
     .JD {
       left: unset;
-      height: 500px;
-      right: -2rem;
-      bottom: 2rem;
+      height: 450px;
+      right: -3rem;
+      bottom: 7.6rem;
     }
   }
 
   @media screen and (min-width: 1441px) {
     padding: 8.625rem 2rem;
     .JD {
-      height: 615px;
+      height: 620px;
       right: -7rem;
-      bottom: 1rem;
+      bottom: 2rem;
     }
   }
 }

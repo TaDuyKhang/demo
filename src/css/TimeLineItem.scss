@@ -22,7 +22,7 @@
   .icon-item {
     display: flex;
     align-items: center;
-    font-size: 0.875rem;
+    font-size: 0.74rem;
     width: 135px;
     align-items: flex-start;
 
@@ -30,6 +30,7 @@
       margin-right: 10px;
       display: inline-block;
       min-height: 16px;
+      max-height: 22px;
     }
 
     &:not(:last-child) {
@@ -54,7 +55,7 @@
     }
 
     .icon-item {
-      font-size: 1rem;
+      font-size: 0.8125rem;
       width: 155px;
     }
 
@@ -63,4 +64,14 @@
       margin-top: 0;
     }
   }
+
+  // @media screen and (min-width: 1200px) {
+  //   .icon-item {
+  //     width: 150px;
+  //   }
+  //   .icon-item {
+  //     font-size: 0.7355rem;
+  //   }
+
+  // }
 }
