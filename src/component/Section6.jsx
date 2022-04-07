@@ -80,14 +80,6 @@ const TEAM = [
     Former Client Lead at Tofu Studio`,
   },
   {
-    imageSrc: "img/section6/Quyen Nguyen.png",
-    name: "Quyen Nguyen",
-    role: "Head of Visual Artist",
-    desc: `  Former 3D Artist at Thunder Cloud
-    Former Concept Artist at Vintata
-    Former 3D Artist at VTV Studio`,
-  },
-  {
     imageSrc: "img/section6/Chau Cao.png",
     name: "Chau Cao",
     role: "Head of Animation",
