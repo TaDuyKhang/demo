@@ -17,76 +17,58 @@ function Footer() {
               </li>
               <li>
                 <a href="#" title="CONTACT">
-                  CONTACT
+                  CONTACT US
                 </a>
               </li>
               <li>
                 <a href="#" title="US">
-                  US
-                </a>
-              </li>
-              <li>
-                <a href="#" title="SUPPORT">
                   SUPPORT
                 </a>
               </li>
               <li>
-                <a href="#" title="PARTNERSHIP">
+                <a href="#" title="SUPPORT">
                   PARTNERSHIP
                 </a>
               </li>
             </ul>
+
             <ul className="list">
               <li>
                 <a href="" title="HOME">
-                  HOME
+                  MARKETPLACE
                 </a>
               </li>
               <li>
                 <a href="#" title="CONTACT">
-                  CONTACT
+                  BLOG
                 </a>
               </li>
               <li>
                 <a href="#" title="US">
-                  US
-                </a>
-              </li>
-              <li>
-                <a href="#" title="SUPPORT">
-                  SUPPORT
-                </a>
-              </li>
-              <li>
-                <a href="#" title="PARTNERSHIP">
-                  PARTNERSHIP
+                  FQA
                 </a>
               </li>
             </ul>
+
             <ul className="list">
               <li>
                 <a href="" title="HOME">
-                  HOME
+                  ABOUT US
                 </a>
               </li>
               <li>
                 <a href="#" title="CONTACT">
-                  CONTACT
+                  POLICY
                 </a>
               </li>
               <li>
                 <a href="#" title="US">
-                  US
+                  WHITEPAPER
                 </a>
               </li>
               <li>
                 <a href="#" title="SUPPORT">
-                  SUPPORT
-                </a>
-              </li>
-              <li>
-                <a href="#" title="PARTNERSHIP">
-                  PARTNERSHIP
+                  AUDIT REPORT
                 </a>
               </li>
             </ul>

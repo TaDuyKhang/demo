@@ -21,7 +21,7 @@
   .boxText {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: start;
   }
   
   .list {
@@ -46,6 +46,11 @@
     padding-left: 2rem;
     padding-right: 2rem;
 
+    
+
+    .list {
+      width: unset;
+    }
     img{
       width: 30%;
     
@@ -58,6 +63,7 @@
     .boxText {
       flex-wrap: unset;
       justify-content: space-between;
+      align-items: start;
     }
   }
 
