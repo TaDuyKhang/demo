@@ -2,6 +2,8 @@ import NftItem from "./NftItem";
 import "../css/Section5.scss";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import "swiper/css/grid";
+import { Grid } from "swiper";
 
 const NFT_ITEMS = [
   {
@@ -389,6 +391,7 @@ function Section5() {
         <p className="title">Diversified NFT Items...</p>
 
         <Swiper
+          modules={[Grid]}
           spaceBetween={24}
           slidesPerView={1.25}
           breakpoints={{
@@ -407,6 +410,10 @@ function Section5() {
             1300: {
               spaceBetween: 42,
               slidesPerView: 5,
+              grid: {
+                fill: "row",
+                rows: 2,
+              },
             },
           }}
         >
