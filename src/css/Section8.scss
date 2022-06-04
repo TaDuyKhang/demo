@@ -1,0 +1,138 @@
+
+.section8 {
+
+  background-color: black;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../img/section8/bgcSection8.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4rem 0 4.5rem;
+  position: relative;
+
+  .section-line {
+    top: 0;
+    transform: translateY(-50%);
+    
+  }
+
+ .content {
+  display: flex;
+  flex-direction:  column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .vid-box {
+   text-align: center;
+   margin-bottom: 15px;
+   
+ }
+
+  .Shiba {
+    width: 50%;
+    transform: rotateY(180deg) rotateZ(9deg);;
+  }
+
+  .shiba-img {
+    width: 60%;
+  }
+
+  .title {
+    font-family: "Titan One";
+    font-weight: 400;
+    font-size: 2.25rem;
+    color: #ffffff;
+  }
+
+  .subText {
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: #ffffff;
+    margin: 12px 0 50px 0;
+  }
+
+  .icons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-row-gap: 2rem;
+    align-items: center;
+
+  }
+
+  .btn-box{
+    text-align: center;
+  }
+  
+  .btn {  
+    color: black;
+    background: #ffcd36;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    margin-top: 40px;
+    padding: 15px 20px;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  @media screen and (min-width: 1024px){
+    
+    padding: 5rem 2rem 6rem;
+    .content {
+      flex-direction: unset;
+    }
+
+    .Shiba{
+      width: unset !important;
+      height: 441px;
+    }
+
+    .vid-box {
+      flex: 1;
+    }
+
+    .box-text {
+      margin-left: 5rem;
+      flex: 2;
+    }
+
+    .title{
+      font-size: 64px;
+      line-height: 73px;
+    }
+
+    .subText{
+      font-size: 24px;
+      line-height: 28px;
+    }
+
+    .icons {
+      grid-template-columns: repeat(7, 1fr);
+      max-width: 420px;
+    }
+
+    .btn-box {
+      text-align: left;
+    }
+
+    .btn {
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 50px;
+      padding: 16px 28px;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding: 5rem 2rem 6rem;
+  }
+
+  @media screen and (min-width: 1441px) {
+    padding: 8.625rem 2rem;
+  }
+}

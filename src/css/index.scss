@@ -1,0 +1,56 @@
+@import "variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Asap", sans-serif, -apple-system, BlinkMacSystemFont;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  cursor: pointer;
+}
+
+.app-content {
+  padding-top: 75px;
+
+  @media screen and (min-width: 992px) {
+    padding-top: 60px;
+  }
+}
+
+.content-container {
+  max-width: 1224px;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+.section-line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: translateY(50%);
+  background-image: url("../img/wave.png");
+  height: 70px;
+  background-size: contain;
+  z-index: 2;
+
+  @media screen and (min-width: 768px) {
+    height: 110px;
+  }
+}

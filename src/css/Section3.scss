@@ -1,0 +1,110 @@
+.section3 {
+  background-image: url(../img/section3/bgcSection3.png);
+  background-size: cover;
+  position: relative;
+  background-color: #9985fe;
+  padding: 4rem 0 4.5rem;
+ 
+
+  .event-box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;  
+  }
+
+
+  .banner-wrapper {
+    position: relative;
+
+    &:before {
+      content: "";
+      display: block;
+      padding-top: 100%;
+    }
+  
+    .picture {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 3;
+    }
+  }
+
+  .title {
+    font-family: "Titan One";
+    margin-bottom: 2.5rem;
+    font-size: 2.25rem;
+    line-height: 41px;
+    color: white;
+  }
+
+  .item-event {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+  }
+
+  .itemTitle {
+    font-weight: 700;
+    margin: 24px 0 5px 0;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .itemSubtext {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .button {
+    text-align: center;
+    button {
+      background: linear-gradient(270.25deg, #f85b17 0.44%, #f8189d 100.03%);
+      border-radius: 8px;
+      padding: 15px 30px;
+      border: none;
+      color: white;
+      font-size: 1rem;
+      font-weight: 600;
+      margin: 2.5rem auto 0;
+    }
+  }
+
+
+
+  @media screen and (min-width: 768px) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    .event-box {
+      flex-direction: unset;
+    }
+
+    .item-event {
+      width: 30%;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding: 5rem 2rem 6rem;
+  }
+
+  @media screen and (min-width: 1441px) {
+    padding: 8.625rem 2rem;
+    
+    .event-box{
+      justify-content: space-between;
+    }
+    .item-event {
+      width: 31%;
+    }
+  }
+}

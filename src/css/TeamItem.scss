@@ -1,0 +1,53 @@
+.textbox-02 {
+  background-color: #fff;
+  border-radius: 0px 0px 20px 20px;
+  position: relative;
+  text-align: center;
+  border-radius: 0.75rem;
+  overflow: hidden;
+
+  .banner {
+    background-color: var(--primary-color);
+    height: 150px;
+  }
+
+  .avatar-wrapper {
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #000;
+    width: 186px;
+    height: 186px;
+    margin: -107px auto 0;
+    background-color: #eee;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .text-box__title {
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    font-weight: 700;
+    font-size: 2.25rem;
+    display: inline-block;
+    padding: 0.5rem;
+    margin: 1.25rem 0;
+  }
+
+  .text-box__role {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+  }
+
+  .text-box__desc {
+    white-space: pre-line;
+    line-height: 1.6;
+    padding: 0 18px 42px;
+  }
+}

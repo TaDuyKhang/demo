@@ -1,0 +1,77 @@
+.timeline-item {
+  .time {
+    padding: 10px;
+    color: #ffcd36;
+    background: #000000;
+    border-radius: 8px;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .q {
+    font-family: "Lexend Deca";
+    font-weight: 700;
+    font-size: 1.25rem;
+  }
+
+  .year {
+    font-family: "Lexend Deca";
+    font-size: 0.75rem;
+  }
+
+  .icon-item {
+    display: flex;
+    align-items: center;
+    font-size: 0.74rem;
+    width: 135px;
+    align-items: flex-start;
+
+    .icon {
+      margin-right: 10px;
+      display: inline-block;
+      min-height: 16px;
+      max-height: 22px;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 9px;
+    }
+  }
+
+  .icon-group {
+    margin-top: 10px;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: flex-start;
+
+    .q {
+      font-size: 1.5rem;
+    }
+
+    .year {
+      font-size: 1rem;
+    }
+
+    .icon-item {
+      font-size: 0.8125rem;
+      width: 155px;
+    }
+
+    .icon-group {
+      margin-left: 10px;
+      margin-top: 0;
+    }
+  }
+
+  // @media screen and (min-width: 1200px) {
+  //   .icon-item {
+  //     width: 150px;
+  //   }
+  //   .icon-item {
+  //     font-size: 0.7355rem;
+  //   }
+
+  // }
+}
